@@ -77,7 +77,16 @@ body {
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
 
+#header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row; }
+
 body {
+  width: 100vw;
+  height: 100vh;
   background-color: #E9EAEE;
   display: flex;
   justify-content: center; }
@@ -85,3 +94,6 @@ body {
 .page-container {
   width: 90vw;
   background-color: #FFF; }
+
+a {
+  text-decoration: none; }

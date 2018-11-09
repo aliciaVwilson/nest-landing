@@ -1,1 +1,20 @@
 // *** HEADER NAV PARTIAL ***
+
+#header-nav{
+  width: 100%;
+  @include basic-flex();
+  #header-nav-content{
+    #nav-content-left{
+      p{
+
+      }//p
+    }//nav-content-left
+    #nav-content-right{
+      ul{
+        li{
+
+        }//li
+      }//ul
+    }//nav-content-right
+  }//header-nav-content
+}//header-nav

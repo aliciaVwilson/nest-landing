@@ -76,3 +76,12 @@ body {
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
+
+body {
+  background-color: #E9EAEE;
+  display: flex;
+  justify-content: center; }
+
+.page-container {
+  width: 90vw;
+  background-color: #FFF; }

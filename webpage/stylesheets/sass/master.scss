@@ -4,4 +4,17 @@
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "components/header-nav";
+
 // --- MASTER CONTROLS ---
+
+body{
+  background-color: #E9EAEE;
+  display: flex;
+  justify-content: center;
+}
+
+.page-container{
+  width: 90vw;
+  background-color: #FFF;
+}

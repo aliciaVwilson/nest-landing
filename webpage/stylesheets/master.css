@@ -112,6 +112,42 @@ body {
             color: #00C1E7;
             transition: .5s; }
 
+#nav-inner {
+  width: 98%;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #nav-inner #nav-inner-nest-logo {
+    width: 980px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 24px; }
+    #nav-inner #nav-inner-nest-logo img {
+      height: 28px;
+      width: auto; }
+  #nav-inner #nav-inner-ul {
+    width: 980px; }
+    #nav-inner #nav-inner-ul ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      #nav-inner #nav-inner-ul ul li {
+        font-size: .9em;
+        color: #7C8287;
+        padding-left: 56px; }
+        #nav-inner #nav-inner-ul ul li a {
+          padding: 15px 0;
+          transition: .5s; }
+          #nav-inner #nav-inner-ul ul li a:hover {
+            color: #00C1E7;
+            transition: .5s; }
+
 body {
   width: 100vw;
   height: 100vh;

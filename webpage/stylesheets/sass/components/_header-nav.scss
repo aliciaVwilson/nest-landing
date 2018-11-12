@@ -22,7 +22,7 @@
           margin-right: 64px;
           svg{
             &:hover path{
-              fill: #00C1E7;
+              fill: $hover-color;
               transition-duration: .5s;
             }
           }
@@ -31,7 +31,7 @@
             font-size: .85em;
             transition: .5s;
             &:hover{
-              color: #00C1E7;
+              color: $hover-color;
               transition: .5s;
             }
           }//a
@@ -40,3 +40,39 @@
     }//nav-content-right
   }//header-nav-content
 }//header-nav
+
+#nav-inner{
+  width: 98%;
+  height: 112px;
+  @include basic-flex(center, center, column);
+
+  #nav-inner-nest-logo{
+    width: 980px;
+    height: 34px;
+    @include basic-flex(center, flex-start);
+    img{
+      height: 28px;
+      width: auto;
+    }
+    padding-bottom: 24px;
+  }
+  #nav-inner-ul{
+    width: 980px;
+    ul{
+      @include basic-flex(center, center);
+      li{
+        font-size: .9em;
+        color: $nest-grey;
+        padding-left: 56px;
+        a{
+          padding: 15px 0;
+          transition: .5s;
+          &:hover{
+            color: $hover-color;
+            transition: .5s;
+          }
+        }
+      }//li
+    }//ul
+  }//nav-inner-ul
+}//nav-inner

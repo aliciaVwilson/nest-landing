@@ -107,6 +107,17 @@
 		"oAP": "/webpage/stylesheets/media/imgs/.temp",
 		"oF": 0
 		},
+	"/webpage/stylesheets/media/imgs/hero-img.jpg": {
+		"ft": 16384,
+		"iS": 261741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/hero-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/webpage/stylesheets/media/imgs/nest-text-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,

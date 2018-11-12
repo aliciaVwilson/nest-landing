@@ -76,3 +76,92 @@ body {
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
+
+#header-nav {
+  width: 100%;
+  padding: 24px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row; }
+  #header-nav #header-nav-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; }
+    #header-nav #header-nav-content #nav-content-left span {
+      font-size: .85em;
+      color: #7C8287;
+      line-height: 1.2; }
+    #header-nav #header-nav-content #nav-content-right ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #header-nav #header-nav-content #nav-content-right ul li {
+        margin-right: 64px; }
+        #header-nav #header-nav-content #nav-content-right ul li svg:hover path {
+          fill: #00C1E7;
+          transition-duration: .5s; }
+        #header-nav #header-nav-content #nav-content-right ul li a {
+          color: #7C8287;
+          font-size: .85em;
+          transition: .5s; }
+          #header-nav #header-nav-content #nav-content-right ul li a:hover {
+            color: #00C1E7;
+            transition: .5s; }
+
+#nav-inner {
+  width: 98%;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #nav-inner #nav-inner-nest-logo {
+    width: 980px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 24px; }
+    #nav-inner #nav-inner-nest-logo img {
+      height: 28px;
+      width: auto; }
+  #nav-inner #nav-inner-ul {
+    width: 980px; }
+    #nav-inner #nav-inner-ul ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      #nav-inner #nav-inner-ul ul li {
+        font-size: .9em;
+        color: #7C8287;
+        padding-left: 56px; }
+        #nav-inner #nav-inner-ul ul li a {
+          padding: 15px 0;
+          transition: .5s; }
+          #nav-inner #nav-inner-ul ul li a:hover {
+            color: #00C1E7;
+            transition: .5s; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9EAEE;
+  display: flex;
+  justify-content: center;
+  font-family: "Akkurat","AkkuratNestWeb-Regular",Helvetica,Arial,"Lucida Grande",sans-serif; }
+
+.page-container {
+  width: 90vw;
+  background-color: #FFF; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }

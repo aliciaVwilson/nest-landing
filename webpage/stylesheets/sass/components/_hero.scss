@@ -1,0 +1,44 @@
+// *** HERO PARTIAL ***
+
+#hero{
+  width: 1280px;
+  height: 710px;
+  left: 10px;
+  background-image: url('media/imgs/hero-img.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  #hero-content{
+    padding-top: 56px;
+    @include basic-flex(center, center, column);
+
+    h1{
+      font-size: 2.6em;
+      font-weight: 200;
+      color: $nest-grey;
+      margin-bottom: 15px;
+      letter-spacing: .03em;
+    }
+
+    p{
+      font-size: 1.2em;
+      color: $nest-grey;
+      margin-bottom: 24px;
+    }//p
+
+    a{
+      position: relative;
+      padding: 12px 50px 11px 50px;
+      background-color: $hover-color;
+      border-radius: 3px;
+      #learn-button{
+        span{
+          font-size: 1em;
+          color: $nest-white;
+        }//span
+      }//learn-button
+    }//a
+
+
+  }//hero-content
+}//hero

@@ -1,0 +1,30 @@
+// *** PRODUCT-SHELF ***
+
+#product-shelf{
+  width: 100%;
+  padding: 72px 0;
+  @include basic-flex(center, center);
+  ul{
+    width: 100%;
+    @include basic-flex(space-around, center);
+    li{
+      @include basic-flex(center, center, column);
+
+      img{
+        height: 110px;
+        width: 150px;
+        margin-bottom: 10px;
+      }
+
+      a{
+        color: $nest-grey;
+        transition: .5s;
+
+        &:hover{
+          color: $hover-color;
+          transition: .5s;
+        }
+      }//a
+    }//li
+  }//ul
+}//product-shelf

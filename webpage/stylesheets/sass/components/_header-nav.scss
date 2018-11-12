@@ -2,17 +2,39 @@
 
 #header-nav{
   width: 100%;
+  padding: 24px 30px 0px 30px;
   @include basic-flex();
   #header-nav-content{
-    #nav-content-left{
-      p{
+    width: 95%;
+    @include basic-flex(space-between, center);
 
+    #nav-content-left{
+      span{
+        font-size: .85em;
+        color: $nest-grey;
+        line-height: 1.2;
       }//p
     }//nav-content-left
     #nav-content-right{
       ul{
+        @include basic-flex(space-between, center, row);
         li{
-
+          margin-right: 64px;
+          svg{
+            &:hover path{
+              fill: #00C1E7;
+              transition-duration: .5s;
+            }
+          }
+          a{
+            color: $nest-grey;
+            font-size: .85em;
+            transition: .5s;
+            &:hover{
+              color: #00C1E7;
+              transition: .5s;
+            }
+          }//a
         }//li
       }//ul
     }//nav-content-right

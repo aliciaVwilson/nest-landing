@@ -1,0 +1,34 @@
+// *** MASTER SASS FILE ***
+
+// --- PARTIALS ---
+@import "helpers/reset";
+@import "helpers/typography";
+
+@import "components/vars";
+@import "components/mixins";
+@import "components/header-nav";
+
+// --- MASTER CONTROLS ---
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9EAEE;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Akkurat","AkkuratNestWeb-Regular",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.page-container{
+  width: 90vw;
+  background-color: #FFF;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}
